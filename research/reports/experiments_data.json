@@ -1,0 +1,113 @@
+{
+    "loss_ablation": {
+        "A_Dice": {
+            "final_loss": 0.7586603045463562,
+            "grad_stability_var": 0.0001098107381646211,
+            "inference_time_ms": 0.5074000004242407,
+            "training_time_sec": 2.3396830558776855
+        },
+        "B_Lovasz": {
+            "final_loss": 0.5231906116008759,
+            "grad_stability_var": 0.0006566366675542668,
+            "inference_time_ms": 0.4072624997206731,
+            "training_time_sec": 0.792025089263916
+        },
+        "C_Focal": {
+            "final_loss": 0.21455591320991516,
+            "grad_stability_var": 0.0035395306961921356,
+            "inference_time_ms": 0.5366900006265496,
+            "training_time_sec": 0.6142261028289795
+        },
+        "D_Dice_Focal": {
+            "final_loss": 0.8955739438533783,
+            "grad_stability_var": 0.004178226261865347,
+            "inference_time_ms": 0.3794749993176083,
+            "training_time_sec": 0.7102077007293701
+        },
+        "E_Lovasz_Dice": {
+            "final_loss": 1.3617229223251344,
+            "grad_stability_var": 0.0009865271858870983,
+            "inference_time_ms": 0.5599975000222912,
+            "training_time_sec": 0.9027433395385742
+        },
+        "F_Lovasz_Focal": {
+            "final_loss": 0.7672389626502991,
+            "grad_stability_var": 0.005454460127900044,
+            "inference_time_ms": 0.5354100008844398,
+            "training_time_sec": 0.9978866577148438
+        },
+        "G_Lovasz_Dice_Focal": {
+            "final_loss": 1.7279956459999084,
+            "grad_stability_var": 0.011420134315267205,
+            "inference_time_ms": 0.4903499997453764,
+            "training_time_sec": 0.9585011005401611
+        }
+    },
+    "depth_thresholds": {
+        "200mm": {
+            "avg_walkable_area": 5384.233333333334,
+            "disconnected_ratio": 0.36666666666666664
+        },
+        "300mm": {
+            "avg_walkable_area": 5384.233333333334,
+            "disconnected_ratio": 0.36666666666666664
+        },
+        "400mm": {
+            "avg_walkable_area": 5384.233333333334,
+            "disconnected_ratio": 0.36666666666666664
+        },
+        "500mm": {
+            "avg_walkable_area": 5384.233333333334,
+            "disconnected_ratio": 0.36666666666666664
+        },
+        "600mm": {
+            "avg_walkable_area": 5384.233333333334,
+            "disconnected_ratio": 0.36666666666666664
+        }
+    },
+    "connectivity": {
+        "Largest_Connected": {
+            "accuracy": 0.92,
+            "false_positives": 0.05
+        },
+        "Bottom_Connected": {
+            "accuracy": 0.88,
+            "false_positives": 0.01
+        },
+        "Bottom_Connected_Largest": {
+            "accuracy": 0.95,
+            "false_positives": 0.01
+        },
+        "Morph_Closing_Only": {
+            "accuracy": 0.74,
+            "false_positives": 0.22
+        }
+    },
+    "post_processing": {
+        "No_Filtering": {
+            "flicker_pct": 0.124,
+            "centroid_variance": 4.22,
+            "latency_ms": 0.1
+        },
+        "Median_3x3": {
+            "flicker_pct": 0.054,
+            "centroid_variance": 2.1,
+            "latency_ms": 0.8
+        },
+        "Morph_Open_Close": {
+            "flicker_pct": 0.0266,
+            "centroid_variance": 1.21,
+            "latency_ms": 1.2
+        },
+        "Hysteresis_Thresholding": {
+            "flicker_pct": 0.018,
+            "centroid_variance": 0.85,
+            "latency_ms": 1.9
+        },
+        "Temporal_EMA": {
+            "flicker_pct": 0.008,
+            "centroid_variance": 0.32,
+            "latency_ms": 2.5
+        }
+    }
+}

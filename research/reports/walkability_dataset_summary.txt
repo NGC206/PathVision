@@ -1,0 +1,5 @@
+WALKABILITY DATASET PSEUDO-LABELS SUMMARY
+Total folders inspected: 1449
+Walkable labels generated: 1246
+Generation duration: 59.89 seconds
+Output folder: D:\Work\BDS\PathVision_Final\research\walkability_labels

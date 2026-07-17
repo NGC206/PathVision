@@ -1,0 +1,5 @@
+graph LR
+T1[Main Preview Thread] --> T2[FastVisionPipeline Thread]
+T2 --> T3[EventBus Dispatch Thread]
+T3 --> T4[Speech Worker Thread]
+T3 --> T5[Reasoner Thread]

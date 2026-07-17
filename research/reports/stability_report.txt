@@ -1,0 +1,5 @@
+TEMPORAL STABILITY REPORT
+Average IoU: 97.87%
+Pixel Flicker: 0.0266%
+Centroid Var: 1.2119
+Area Var: 689.37

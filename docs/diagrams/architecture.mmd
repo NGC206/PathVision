@@ -1,0 +1,7 @@
+graph TD
+Cam[Camera Input] --> Sched[Scheduler]
+Sched --> Seg[PathVision TRT]
+Sched --> Depth[Depth Anything TRT]
+Seg --> Fuse[SceneFusion]
+Depth --> Fuse
+Fuse --> Nav[Navigation Decision]

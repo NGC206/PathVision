@@ -1,0 +1,8 @@
+graph TD
+State[Evaluate_Safety] --> Danger{Safety_State}
+Danger -->|Danger| Stop[STOP]
+Danger -->|Caution| Slow[SLOW]
+Danger -->|Safe| Center{Steering_Error}
+Center -->|Aligned| Fwd[FORWARD]
+Center -->|Left_Shift| Left[LEFT]
+Center -->|Right_Shift| Right[RIGHT]

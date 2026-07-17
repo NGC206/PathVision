@@ -1,0 +1,48 @@
+==================================================
+SUNRGBD DATASET INVENTORY & INSPECTION REPORT
+==================================================
+
+Dataset root: D:\Work\BDS\training\dataset\sunrgbd_raw\SUNRGBD\SUNRGBD\kv1\NYUdata
+Total samples in dataset folder: 1449
+Detailed samples inspected: 2000
+
+1. Data Modality Audits:
+- Segmentation (.mat) availability: 1449/2000 (72.5%)
+- Depth Map (.png) availability:    1449/2000 (72.5%)
+
+2. Walkable Area (Floor) Statistics:
+- Floor pixel labels mapping index: 11 ('floor') and 143 ('floor mat')
+- Average floor area percentage:    11.16%
+- Minimum floor area observed:      0.00%
+- Maximum floor area observed:      51.69%
+
+3. Scene Category Distribution:
+- bedroom: 383 (19.1%)
+- kitchen: 225 (11.2%)
+- living_room: 221 (11.1%)
+- bathroom: 121 (6.0%)
+- dining_room: 117 (5.9%)
+- office: 78 (3.9%)
+- home_office: 50 (2.5%)
+- classroom: 49 (2.5%)
+- bookstore: 36 (1.8%)
+- playroom: 31 (1.6%)
+- furniture_store: 27 (1.4%)
+- study: 25 (1.2%)
+- reception_room: 17 (0.9%)
+- office_kitchen: 10 (0.5%)
+- study_space: 7 (0.4%)
+- basement: 7 (0.4%)
+- computer_room: 6 (0.3%)
+- cafeteria: 5 (0.2%)
+- conference_room: 5 (0.2%)
+- storage_room: 5 (0.2%)
+- recreation_room: 5 (0.2%)
+- dinette: 4 (0.2%)
+- lobby: 4 (0.2%)
+- gym: 3 (0.1%)
+- laundromat: 3 (0.1%)
+- printer_room: 3 (0.1%)
+- indoor_balcony: 2 (0.1%)
+
+==================================================

@@ -1,0 +1,56 @@
+# Caches & Bytecode
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+external/Depth-Anything-V2/.venv/
+
+# IDE & OS Configuration
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Output Files & Logs
+logs/
+output/
+report_results/
+validation_images/
+*.log
+*.jsonl
+
+# Office Temporary Files
+~$*.doc
+~$*.docx
+*.tmp
+*.temp
+*.bak
+
+# Dataset & Training artifacts
+learning/collected_data/
+datasets/
+dataset/
+data/
+training_data/
+captured_frames/
+recordings/
+*.npy
+*.npz
+*.pt
+*.pth
+
+# Large AI Models (Ignored to prevent GitHub 100MB limit push errors)
+*.engine
+*.gguf
+*.onnx
+*.onnx.data
