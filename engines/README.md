@@ -9,6 +9,7 @@ You must compile the engines locally on your target hardware using NVIDIA's `trt
 ## 1. Prerequisites
 - **CUDA Toolkit** (version 12.x) must be installed.
 - **TensorRT** (version 10.x) must be installed, and `trtexec` must be added to your system path.
+- **Qwen2.5-VL-3B-Instruct-Q4_K_M.gguf** must be downloaded and stored in PathVision/models
 
 ---
 
