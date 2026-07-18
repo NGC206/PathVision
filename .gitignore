@@ -49,8 +49,3 @@ recordings/
 *.pt
 *.pth
 
-# Large AI Models (Ignored to prevent GitHub 100MB limit push errors)
-*.engine
-*.gguf
-*.onnx
-*.onnx.data
